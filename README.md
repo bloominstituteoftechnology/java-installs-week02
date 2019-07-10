@@ -1,24 +1,10 @@
 # Lambda School Web API: Java Course 
-## Software installations for Week 1 
+## Software installations for Week 2 
 
 <details><summary>For All Operating Systems</summary>
 <p>
 
-### To be done after installing the software for your specific operating system
-
-[![Video to Install JDK](http://img.youtube.com/vi/OswS2dkvjnU/0.jpg)](http://www.youtube.com/watch?v=OswS2dkvjnU)
-
-The Jet Brains IntelliJ IDEA Ultimate Version is installed from your GitHub Student Package. We do need the Ultimate Version for the class. When installing, taking the defaults is the best way to proceed.
-
-This video shows how your instructor has configured his IDE. You may have your own preferences.
-
-Some notes on configuration:
-
-* Under Code Folding, only the show Code Folding Menu should be checked
-* All Braces placement should say Next Line
-* All places should say Force Braces
-* Only Annotations should be wrapped
-* Remember to connect your GitHub profile to IntelliJ
+### Nothing to install that is NOT operating system specific. See your OS link for installation instructions
 
 </p>
 </details>
