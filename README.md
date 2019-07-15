@@ -60,16 +60,16 @@ To set up environment variables permanently
 * Under System variables click New...
   * Add each of the following
 
-Variable Name = MYDBPASSWORD
+Variable Name = MYDBPASSWORD  
 Variable Value = password
 
-Variable Name = MYDBUSER
+Variable Name = MYDBUSER  
 Variable Value = postgres
 
-Variable Name = LAMBDACLIENT
+Variable Name = LAMBDACLIENT  
 Variable Value = lambda-client
 
-Variable Name = LAMBDASECRET
+Variable Name = LAMBDASECRET  
 Variable Value = lambda-secret
 
 Restart the computer!
