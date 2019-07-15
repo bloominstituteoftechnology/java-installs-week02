@@ -155,6 +155,47 @@ Type=Application
 Categories=Development;
 ```
 
+### Set Environment Variables for a Linux Computer
+
+[![Video to Environment Variables](http://img.youtube.com/vi/IyGr-cJePIk/0.jpg)](http://www.youtube.com/watch?v=IyGr-cJePIk)
+
+Environment variables are needed for
+* Class
+* Build Week
+* Labs
+* Industry
+
+Why set environment variables 
+* prevent adding passwords and such to github
+* restrict knowledge of the passwords and such to the executing machine
+
+To show all environment variables 
+```
+printenv
+```
+
+To show a specific environment variable
+```
+echo $PATH
+```
+
+To set up environment variables permanently
+```
+Go to home directory
+cd
+nano .bashrc
+```
+
+move to the end of the file. Add a new line and enter the following:
+```
+export MYDBPASSWORD=password
+export MYDBUSER=postgres
+export LAMBDACLIENT=lambda-client
+export LAMBDASECRET=lambda-secret
+```
+Restart the computer!
+
+---
 ---
 </p>
 </details>
