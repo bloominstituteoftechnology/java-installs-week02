@@ -196,6 +196,5 @@ export LAMBDASECRET=lambda-secret
 Restart the computer!
 
 ---
----
 </p>
 </details>
