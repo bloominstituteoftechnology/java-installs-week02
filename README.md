@@ -29,6 +29,52 @@
 Download and install the software from [https://www.getpostman.com/](https://www.getpostman.com/)
 
 ---
+### Set Environment Variables for a Windows based 10 Computer
+
+[![Video to Environment Variables](http://img.youtube.com/vi/B6o7tCraW94/0.jpg)](http://www.youtube.com/watch?v=B6o7tCraW94)
+
+Environment variables are needed for
+* Class
+* Build Week
+* Labs
+* Industry
+
+Why set environment variables 
+* prevent adding passwords and such to github
+* restrict knowledge of the passwords and such to the executing machine
+
+To show all environment variables 
+```
+printenv
+```
+
+To show a specific environment variable
+```
+echo %PATH%
+```
+
+To set up environment variables permanently
+* Search for environment
+* Pick Edit the system environment variables
+* Click the button Environment Variables
+* Under System variables click New...
+  * Add each of the following
+
+Variable Name = MYDBPASSWORD
+Variable Value = password
+
+Variable Name = MYDBUSER
+Variable Value = postgres
+
+Variable Name = LAMBDACLIENT
+Variable Value = lambda-client
+
+Variable Name = LAMBDASECRET
+Variable Value = lambda-secret
+
+Restart the computer!
+
+---
 </p>
 </details>
 
@@ -155,6 +201,7 @@ Type=Application
 Categories=Development;
 ```
 
+---
 ### Set Environment Variables for a Linux Computer
 
 [![Video to Environment Variables](http://img.youtube.com/vi/IyGr-cJePIk/0.jpg)](http://www.youtube.com/watch?v=IyGr-cJePIk)
