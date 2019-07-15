@@ -57,6 +57,46 @@ If you run into issues, try entering the following command in a terminal window.
 Surf to the website [https://www.getpostman.com/](https://www.getpostman.com/) and install the software</p>
 
 ---
+### Set Environment Variables for a MAC OS Computer
+
+[![Video to Environment Variables](http://img.youtube.com/vi/XCDOh4GPNZk/0.jpg)](http://www.youtube.com/watch?v=XCDOh4GPNZk)
+
+Environment variables are needed for
+* Class
+* Build Week
+* Labs
+* Industry
+
+Why set environment variables 
+* prevent adding passwords and such to github
+* restrict knowledge of the passwords and such to the executing machine
+
+To show all environment variables 
+```
+printenv
+```
+
+To show a specific environment variable
+```
+echo $PATH
+```
+
+To set up environment variables permanently
+```
+Go to home director
+cd
+nano .bash_profile
+```
+
+move to the end of the file. Add a new line and enter the following:
+```
+export MYDBPASSWORD=password
+export MYDBUSER=postgres
+export LAMBDACLIENT=lambda-client
+export LAMBDASECRET=lambda-secret
+```
+
+---
 </details>
 
 
