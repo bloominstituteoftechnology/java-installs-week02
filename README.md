@@ -83,7 +83,7 @@ echo $PATH
 
 To set up environment variables permanently
 ```
-Go to home director
+Go to home directory
 cd
 nano .bash_profile
 ```
