@@ -95,6 +95,7 @@ export MYDBUSER=postgres
 export LAMBDACLIENT=lambda-client
 export LAMBDASECRET=lambda-secret
 ```
+Restart the computer!
 
 ---
 </details>
