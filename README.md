@@ -72,6 +72,12 @@ Variable Value = lambda-client
 Variable Name = LAMBDASECRET  
 Variable Value = lambda-secret
 
+Variable Name = MYDBNAME
+Variable Value = starthere
+
+Variable Name = MYDBHOST
+Variable Value = localhost
+
 Restart the computer!
 
 ---
@@ -140,6 +146,8 @@ export MYDBPASSWORD=password
 export MYDBUSER=postgres
 export LAMBDACLIENT=lambda-client
 export LAMBDASECRET=lambda-secret
+export MYDBHOST=localhost
+export MYDBNAME=starthere
 ```
 Restart the computer!
 
@@ -239,6 +247,8 @@ export MYDBPASSWORD=password
 export MYDBUSER=postgres
 export LAMBDACLIENT=lambda-client
 export LAMBDASECRET=lambda-secret
+export MYDBHOST=localhost
+export MYDBNAME=starthere
 ```
 Restart the computer!
 
