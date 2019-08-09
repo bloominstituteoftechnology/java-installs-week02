@@ -72,10 +72,10 @@ Variable Value = lambda-client
 Variable Name = LAMBDASECRET  
 Variable Value = lambda-secret
 
-Variable Name = MYDBNAME
+Variable Name = MYDBNAME  
 Variable Value = starthere
 
-Variable Name = MYDBHOST
+Variable Name = MYDBHOST  
 Variable Value = localhost
 
 Restart the computer!
