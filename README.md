@@ -4,7 +4,11 @@
 <details><summary>For All Operating Systems</summary>
 <p>
 
-### Nothing to install that is NOT operating system specific. See your OS link for installation instructions
+### Using PostgreSQL on Heroku
+
+[https://youtu.be/4fvDV7MTy-0](https://youtu.be/4fvDV7MTy-0)
+
+---
 
 </p>
 </details>
